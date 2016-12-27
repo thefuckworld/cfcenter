@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <!-- 继承 -->
+  <parent>
+    <groupId>com.dw.cfcenter</groupId>
+    <artifactId>cfcenter-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <packaging>jar</packaging>
+  <artifactId>cfcenter-util</artifactId>
+  <name>cfcenter-util</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+     <dependency>
+       <groupId>org.slf4j</groupId>
+	   <artifactId>slf4j-log4j12</artifactId>
+    </dependency>
+    
+    <dependency>
+      <groupId>commons-lang</groupId>
+	  <artifactId>commons-lang</artifactId>
+    </dependency>
+    
+    <dependency>
+      <groupId>commons-codec</groupId>
+	  <artifactId>commons-codec</artifactId>
+    </dependency>
+    
+     <!-- json相关 -->
+     <dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	</dependency>
+	
+	<dependency>
+	   <groupId>org.apache.httpcomponents</groupId>
+	   <artifactId>httpclient</artifactId>
+	   <version>4.5.1</version>
+	</dependency>
+  </dependencies>
+</project>
